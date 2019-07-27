@@ -1,11 +1,11 @@
-Microsoft COCO Caption Evaluation
+Microsoft COCO Caption Evaluation (Python 3)
 ===================
 
-Evaluation codes for MS COCO caption generation.
+Evaluation codes for MS COCO caption generation. The origninal code is based on Python 2.7, and this code is changed specifically for Python 3. 
 
 ## Requirements ##
 - java 1.8.0
-- python 2.7
+- python 3.6
 
 ## Files ##
 ./
@@ -43,14 +43,3 @@ Evaluation codes for MS COCO caption generation.
 - Rouge-L: [ROUGE: A Package for Automatic Evaluation of Summaries](http://anthology.aclweb.org/W/W04/W04-1013.pdf)
 - CIDEr: [CIDEr: Consensus-based Image Description Evaluation](http://arxiv.org/pdf/1411.5726.pdf)
 - SPICE: [SPICE: Semantic Propositional Image Caption Evaluation](https://arxiv.org/abs/1607.08822)
-
-## Developers ##
-- Xinlei Chen (CMU)
-- Hao Fang (University of Washington)
-- Tsung-Yi Lin (Cornell)
-- Ramakrishna Vedantam (Virgina Tech)
-
-## Acknowledgement ##
-- David Chiang (University of Norte Dame)
-- Michael Denkowski (CMU)
-- Alexander Rush (Harvard University)
